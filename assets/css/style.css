@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+} 
+#main-header {
+    height: 60px;
+    background: blue;
+    width: 100%;
+   
+}  
+
+
+#big-title {
+    color: yellow;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 2px;    
+    padding: 0px 0px 0px 0px;
+}   
+#start-btn {
+width: 90px;
+letter-spacing: 2px;
+font-size: 18px;
+
+} 
