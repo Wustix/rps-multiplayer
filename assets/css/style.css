@@ -1,14 +1,15 @@
 * {
     box-sizing: border-box;
 } 
+body {
+    background-color: tan;
+}
 #main-header {
     height: 60px;
     background: blue;
     width: 100%;
    
 }  
-
-
 #big-title {
     color: yellow;
     font-size: 48px;
@@ -20,5 +21,31 @@
 width: 90px;
 letter-spacing: 2px;
 font-size: 18px;
+}
+.col-sm {
+    text-align: center;
+}
+.chat-area {
+    max-width: 960px;
+}
+#text-area-box{
+    height: 200px;
+}
+#chat-text-area {
+    width: 900px;
+}
+#chat-btn {
+    margin-left: 10px;
+    width: 130px;
+}
+#image-holder {
+    height: 250px;
+    width: 250px;
+}
+#name-added-1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    letter-spacing: 2px;
 
-} 
+}
