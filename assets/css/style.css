@@ -39,13 +39,43 @@ font-size: 18px;
     width: 130px;
 }
 #image-holder {
-    height: 250px;
-    width: 250px;
+    height: 140px;
+    width: 175px;
+    margin-bottom: 10px;
+}
+#image-holder:first child {
+    padding-top: 10px;
 }
 #name-added-1 {
     font-size: 30px;
     font-weight: bold;
     color: red;
     letter-spacing: 2px;
+
+}
+#player1-box,
+#player2-box
+ {
+    height: 465px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 0px 15px 0px 15px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+#winner-box {
+    height: 465px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 0px 15px 0px 15px;
+}
+#form-box {
+    margin-top: 5px;
+}
+#player-turn {
+    text-align: center;
+    font-size: 24px;
 
 }

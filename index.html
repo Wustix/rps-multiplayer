@@ -21,10 +21,7 @@
         <h1 id="big-title">Rock Paper Scissors Duel</h1>
     </header>
 
-
-    <br>
-    <br>
-    <form class="form-inline d-flex justify-content-center">
+    <form class="form-inline d-flex justify-content-center" id="form-box">
         <div class=" form-group mx-sm-3 mb-2" id="name-added-1">
             <label for="inputName" class="sr-only">Name</label>
             <input type="name" class="form-control" id="input-name" placeholder="Name">
@@ -33,27 +30,33 @@
     </form>
 
     <div class="container">
-        <div class="row" id="name-added"></div>
+        <div class="row" id="player-turn"></div>
     </div>
 
-    <div class="container" id="player-choose"></div>
-    <br>
-    <br>
+
+
     <div class="container">
         <div class="row">
-            <div class="col-sm">
-                <img src="./assets/images/Rock.jpg" id="image-holder">
+            <div class="col-sm" id="player1-box">
+                <div class="container" id="playerwait1">Waiting for Player 1</div>
+                <div class="container" id="nameHolder"></div>
+                <!--<img src="./assets/images/Rock.jpg" alt="Dwayne Johnson" id="image-holder">
+                <img src="./assets/images/Paper.jpg" alt="Paper" id="image-holder">
+                <img src="./assets/images/Scissors.jpg" alt="Scissors" id="image-holder">-->
             </div>
-            <div class="col-sm">
-                <img src="./assets/images/Paper.jpg" id="image-holder">
+            <div class="col-sm" id="winner-box">
+
             </div>
-            <div class="col-sm">
-                <img src="./assets/images/Scissors.jpg" id="image-holder">
+            <div class="col-sm" id="player2-box">
+                <div class="container" id="playerwait1">Waiting for Player 2</div>
+                <!--<img src="./assets/images/Rock.jpg" alt="Dwayne Johnson" id="image-holder">
+                <img src="./assets/images/Paper.jpg" alt="Paper" id="image-holder">
+                <img src="./assets/images/Scissors.jpg" alt="Scissors" id="image-holder">-->
             </div>
         </div>
     </div>
     <br>
-    <br>
+
 
     <form class="container chat-area">
         <div class="form-group" id="text-area">
